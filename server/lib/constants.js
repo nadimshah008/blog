@@ -1,0 +1,29 @@
+'use strict';
+const Constant = {
+
+code :{
+    SUCCESSCODE:200,
+    BADREQUEST:400,
+    DATANOTFOUND:404,
+    INTERNALSERVERERROR:500
+}
+,
+messages : {
+
+    FETCHED_ALL:"FETCHED ALL",
+    DELETED:"DELETED SUCCESSFULLY",
+    CREATED:"CREATED SUCCESSFULLY",
+    ALREADY_EXIST:"ALREADY EXIST",
+    FAILED:"FAILED TO ADD",
+    FAILED_PROCESS:"FAILED TO PROCESS",
+    SERVER_ERROR:"SERVER ERROR",
+    NO_DATA:"NO DATA FOUND"
+
+
+}
+
+
+}
+
+
+module.exports =  Constant;
